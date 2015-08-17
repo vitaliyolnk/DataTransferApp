@@ -68,7 +68,7 @@
   <ItemGroup>
     <Compile Include="Actors\CoordinatorActor.cs" />
     <Compile Include="Actors\ProcessorActor.cs" />
-    <Compile Include="Actors\ReaderActorcs.cs" />
+    <Compile Include="Actors\ReaderActor.cs" />
     <Compile Include="Actors\WriterActor.cs" />
     <Compile Include="DataAccess.cs" />
     <Compile Include="IAData.cs" />
