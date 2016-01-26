@@ -22,7 +22,7 @@ namespace DataTransferApp
             reader.Tell(ReaderActor.ProcessAll);
 
 
-            dataTransferSystem.AwaitTermination();
+            dataTransferSystem.WhenTerminated.Wait();
         }
     }
 }
